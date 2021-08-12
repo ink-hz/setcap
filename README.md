@@ -1,5 +1,5 @@
 # setcap
-Linux使用capabilities实现进程权限管理
+Linux: 如何使用capabilities机制实现进程权限管理?
 
 **问题：**
 
@@ -31,4 +31,3 @@ root     14400  0.0  0.0 112708   980 pts/0    R+   23:34   0:00 grep --color=au
 [root@ink src]# getpcaps 14369
 Capabilities for `14369': = cap_chown,cap_dac_override,cap_dac_read_search,cap_fowner,cap_fsetid,cap_kill+eip
 ```
-
